@@ -1,0 +1,35 @@
+<div class="main ">
+    <section class="header">
+        <h3>Ideas with impact</h3>
+        <p>Here, you can post and find ideas for technologies—websites, apps, and more—that real people will use. If there is a technology that you wish existed, post the idea here. And if you want to develop a solution based on an idea, you can create or join a project based on that idea.</p>
+    </section>
+    <div class="tools">
+        <div class="tools-right">
+            <h2>Ideas</h2>
+            <button class= "menu-btn" mat-button [matMenuTriggerFor]="menu">New 🠻</button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item>Hot</button>
+                <button mat-menu-item>Top</button>
+                <button mat-menu-item>New</button>
+            </mat-menu>
+        </div>
+        <div class="tools-left">
+            <button class="new-idea-btn" mat-stroked-button>+ New Idea</button>
+        </div>
+    </div>
+    <div class="projects">
+        <app-project></app-project>
+        <app-project></app-project>
+        <app-project></app-project>
+        <app-project></app-project>
+        <app-project></app-project>
+        <app-project></app-project>
+        <app-project></app-project>
+        <app-project></app-project>
+    </div>
+    <div class="navigation-btns">
+        <button class="navigation-btn">Previous</button>
+        <button class="navigation-btn">Next</button>
+    </div>
+    
+</div>

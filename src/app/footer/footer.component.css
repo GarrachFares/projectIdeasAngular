@@ -1,0 +1,38 @@
+.example-spacer {
+    
+    width: 200px;
+}
+
+.footer {
+    justify-content: center;
+    background-color: #212529!important;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+
+.footer-content .links{
+    color: #C7C8BA;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.footer-content .toggle{
+    color: #A8BECA;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.links{
+     display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+

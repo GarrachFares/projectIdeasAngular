@@ -1,0 +1,33 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.nav {
+    color: white;
+    background-color: #212529!important;
+}
+
+.search {
+  color: #b1beca;
+}
+
+.example-icon{
+  background-color: #212529;
+  border: none;
+  cursor:pointer;
+}
+
+.login-btn{
+  cursor:pointer;
+  background-color: #212529;
+  border-color:#198754;
+  color:#198754;
+  border-radius: 0.25rem ;
+  padding: 0.5rem .8rem;
+  font-weight: 400;
+  font-size: 1rem;
+  border:2px solid;
+  margin-left:0.75rem;
+     
+}
+
